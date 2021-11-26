@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "order-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-va3oduhysqy3"
+s3_prefix = "order-app"
+region = "ap-southeast-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
